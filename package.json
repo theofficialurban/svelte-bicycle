@@ -1,0 +1,47 @@
+{
+	"name": "@theofficialurban/svelte-bicycle",
+	"private": false,
+	"version": "2.0.2",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "svelte-package",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json"
+	},
+	"files": [
+		"dist"
+	],
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"svelte": "./dist/index.js"
+		}
+	},
+	"typesVersions": {
+		"*": {
+			".": [
+				"./dist/types/BicycleCard.d.ts"
+			]
+		}
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^2.4.6",
+		"@tsconfig/svelte": "^5.0.0",
+		"@types/lodash": "^4.14.200",
+		"@types/lodash-es": "^4.17.10",
+		"autoprefixer": "^10.4.16",
+		"postcss": "^8.4.31",
+		"svelte-check": "^3.4.6",
+		"tailwindcss": "^3.3.5",
+		"tslib": "^2.6.0",
+		"typescript": "^5.0.2",
+		"vite": "^4.4.5"
+	},
+	"dependencies": {
+		"@theofficialurban/svelte-bicycle": "^2.0.1",
+		"lodash": "^4.17.21",
+		"lodash-es": "^4.17.21",
+		"svelte": "^4.0.5"
+	}
+}
