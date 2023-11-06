@@ -3,7 +3,6 @@ import type { Writable } from "svelte/store";
 import type BicycleCardComponent from "../components/BicycleCard/bicycle-card.svelte";
 import type BicycleCardDeck from "../Deck";
 import type BicycleCardObject from "../BicycleCard";
-import type { SvelteComponent } from "svelte";
 /**
  * @type Card
  * @param _id - The unique ID (key) of the card
@@ -12,19 +11,18 @@ import type { SvelteComponent } from "svelte";
  * @param _cover - The card cover or design (back)
  * @param _image - The card image (face)
  */
-type Card = {
+type CardState = {
     _id: number;
     _image: string;
     _value: number;
     _status: CardStatus;
     _cover?: string;
-    _svgGraphic?: SvelteComponent;
 };
 /**
  * @type Status
  */
 type CardStatus = "FACEDOWN" | "FACEUP";
-type CardLike = Partial<Card> & {
+type CardLike = Partial<CardState> & {
     _id: number;
     _value: number;
 };
@@ -38,14 +36,22 @@ export default interface BicycleCard {
      */
     DeckStore: Writable<BicycleCardObject[]>;
     /**
+     * Single Card Object
+     */
+    Object: BicycleCardObject;
+    /**
      * Single card State
      */
-    State: Card;
+    State: CardState;
+    /**
+     * Svelte Component
+     * @see {BicycleCard}
+     */
     Component: BicycleCardComponent;
     /**
      * Single card store
      */
-    Store: Writable<Card>;
+    Store: Writable<CardState>;
     /**
      * Data that includes basic information about a card
      */

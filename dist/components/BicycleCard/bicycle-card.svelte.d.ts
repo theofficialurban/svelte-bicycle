@@ -19,7 +19,6 @@ declare const __propDef: {
                         _value: number;
                         _status: "FACEDOWN" | "FACEUP";
                         _cover?: string | undefined;
-                        _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                     }> & {
                         _id: number;
                         _value: number;
@@ -30,7 +29,6 @@ declare const __propDef: {
                         _value: number;
                         _status: "FACEDOWN" | "FACEUP";
                         _cover?: string | undefined;
-                        _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                     }> & {
                         _id: number;
                         _value: number;
@@ -41,7 +39,6 @@ declare const __propDef: {
                         _value: number;
                         _status: "FACEDOWN" | "FACEUP";
                         _cover?: string | undefined;
-                        _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                     }> & {
                         _id: number;
                         _value: number;
@@ -60,7 +57,6 @@ declare const __propDef: {
                         _value: number;
                         _status: "FACEDOWN" | "FACEUP";
                         _cover?: string | undefined;
-                        _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                     }> & {
                         _id: number;
                         _value: number;
@@ -71,7 +67,6 @@ declare const __propDef: {
                         _value: number;
                         _status: "FACEDOWN" | "FACEUP";
                         _cover?: string | undefined;
-                        _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                     }> & {
                         _id: number;
                         _value: number;
@@ -82,7 +77,6 @@ declare const __propDef: {
                         _value: number;
                         _status: "FACEDOWN" | "FACEUP";
                         _cover?: string | undefined;
-                        _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                     }> & {
                         _id: number;
                         _value: number;
@@ -106,7 +100,6 @@ declare const __propDef: {
             _value: number;
             _status: "FACEDOWN" | "FACEUP";
             _cover?: string | undefined;
-            _svgGraphic?: SvelteComponent<any, any, any> | undefined;
         }> & {
             _id: number;
             _value: number;
@@ -117,7 +110,6 @@ declare const __propDef: {
             _value: number;
             _status: "FACEDOWN" | "FACEUP";
             _cover?: string | undefined;
-            _svgGraphic?: SvelteComponent<any, any, any> | undefined;
         }> & {
             _id: number;
             _value: number;
@@ -128,7 +120,6 @@ declare const __propDef: {
             _value: number;
             _status: "FACEDOWN" | "FACEUP";
             _cover?: string | undefined;
-            _svgGraphic?: SvelteComponent<any, any, any> | undefined;
         }> & {
             _id: number;
             _value: number;
@@ -150,7 +141,6 @@ export default class BicycleCard extends SvelteComponent<BicycleCardProps, Bicyc
                 _value: number;
                 _status: "FACEDOWN" | "FACEUP";
                 _cover?: string | undefined;
-                _svgGraphic?: SvelteComponent<any, any, any> | undefined;
             }>;
             class: string;
         }>): {
@@ -162,7 +152,6 @@ export default class BicycleCard extends SvelteComponent<BicycleCardProps, Bicyc
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }>;
                 class: string;
             };
@@ -173,7 +162,6 @@ export default class BicycleCard extends SvelteComponent<BicycleCardProps, Bicyc
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }> & {
                     _id: number;
                     _value: number;
@@ -184,7 +172,6 @@ export default class BicycleCard extends SvelteComponent<BicycleCardProps, Bicyc
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }> & {
                     _id: number;
                     _value: number;
@@ -195,7 +182,6 @@ export default class BicycleCard extends SvelteComponent<BicycleCardProps, Bicyc
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }> & {
                     _id: number;
                     _value: number;
@@ -214,7 +200,6 @@ export default class BicycleCard extends SvelteComponent<BicycleCardProps, Bicyc
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }> & {
                     _id: number;
                     _value: number;
@@ -225,7 +210,6 @@ export default class BicycleCard extends SvelteComponent<BicycleCardProps, Bicyc
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }> & {
                     _id: number;
                     _value: number;
@@ -236,7 +220,6 @@ export default class BicycleCard extends SvelteComponent<BicycleCardProps, Bicyc
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }> & {
                     _id: number;
                     _value: number;
@@ -249,7 +232,6 @@ export default class BicycleCard extends SvelteComponent<BicycleCardProps, Bicyc
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }>;
                 class: string;
             }>): void;

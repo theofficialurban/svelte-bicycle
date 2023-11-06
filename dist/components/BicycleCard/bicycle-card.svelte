@@ -43,7 +43,7 @@ $:
 <style>
 	@font-face {
 		font-family: PlayingCards;
-		src: url(../../../assets/playingcards.TTF);
+		src: url(../../BicycleCard/assets/playingcards.TTF);
 	}
 	.playing-card {
 		font-family: PlayingCards;

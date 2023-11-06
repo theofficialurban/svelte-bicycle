@@ -46,7 +46,6 @@ export default class BicycleCardCover extends SvelteComponent<BicycleCardCoverPr
                 _value: number;
                 _status: "FACEDOWN" | "FACEUP";
                 _cover?: string | undefined;
-                _svgGraphic?: SvelteComponent<any, any, any> | undefined;
             }>;
             class: string;
         }>): {
@@ -58,7 +57,6 @@ export default class BicycleCardCover extends SvelteComponent<BicycleCardCoverPr
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }>;
                 class: string;
             };
@@ -77,7 +75,6 @@ export default class BicycleCardCover extends SvelteComponent<BicycleCardCoverPr
                     _value: number;
                     _status: "FACEDOWN" | "FACEUP";
                     _cover?: string | undefined;
-                    _svgGraphic?: SvelteComponent<any, any, any> | undefined;
                 }>;
                 class: string;
             }>): void;
