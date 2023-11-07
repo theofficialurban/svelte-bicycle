@@ -1,7 +1,7 @@
 {
 	"name": "@theofficialurban/svelte-bicycle",
 	"private": false,
-	"version": "2.0.3",
+	"version": "2.0.5",
 	"type": "module",
 	"types": "./dist/index.d.ts",
 	"scripts": {

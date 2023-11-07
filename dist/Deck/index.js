@@ -1,4 +1,4 @@
-import { uniqueId, random, isUndefined, sample, shuffle } from "lodash-es";
+import { uniqueId, random, isUndefined, sample, shuffle, remove, } from "lodash-es";
 import NotPictured from "../BicycleCard/assets/not-pictured.png";
 import Cover from "../BicycleCard/assets/card-cover.png";
 import { get, writable } from "svelte/store";
@@ -53,6 +53,19 @@ export default class BicycleCardDeck {
     addCard = (card) => {
         return this.#_deck.update((d) => {
             return [...d, card];
+        });
+    };
+    /**
+     * @public @method removeCard()
+     * Removes a card from the deck.
+     * @param card The card you'd like to remove
+     */
+    removeCard = (card) => {
+        this.#_deck.update((d) => {
+            remove(d, (c) => {
+                return card === c;
+            });
+            return d;
         });
     };
     /**

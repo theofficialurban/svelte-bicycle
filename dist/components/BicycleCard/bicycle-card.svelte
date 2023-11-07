@@ -41,12 +41,8 @@ $:
 </div>
 
 <style>
-	@font-face {
-		font-family: PlayingCards;
-		src: url(../../BicycleCard/assets/playingcards.TTF);
-	}
 	.playing-card {
-		font-family: PlayingCards;
+		font-family: sans-serif;
 		width: 250px;
 		height: 350px;
 	}

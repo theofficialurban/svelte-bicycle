@@ -26,6 +26,12 @@ export default class BicycleCardDeck {
      */
     addCard: (card: BicycleCardObject) => void;
     /**
+     * @public @method removeCard()
+     * Removes a card from the deck.
+     * @param card The card you'd like to remove
+     */
+    removeCard: (card: BicycleCardObject) => void;
+    /**
      * @public @method getDeck()
      * Returns the store.
      * @returns The store / deck
